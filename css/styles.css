@@ -1,0 +1,25 @@
+.box{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+/*--desde 0 hasta 767 hara lo siguiente--*/
+@media (max-width: 767px){
+    .movil{
+        background: blue;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px){
+    .tablet{
+        background-color: green;
+    }
+}
+
+@media(min-width:992px){
+    .desktop{
+        background: red;
+    }
+}
